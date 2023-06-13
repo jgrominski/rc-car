@@ -5,7 +5,7 @@ from time import time
 
 import cv2 as cv
 import websockets
-from gpiozero import Motor, PWMLED, LightSensor, DistanceSensor
+from gpiozero import PWMLED, DistanceSensor, LightSensor, Motor
 
 
 async def handler(websocket):
